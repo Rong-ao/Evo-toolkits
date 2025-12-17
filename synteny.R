@@ -3,6 +3,8 @@ library(stringr)
 library(ggtree)
 library(ggplot2)
 library(cowplot)
+library(purrr)
+
 setwd("/storage/zhenyingLab/kourongao/Gmel_synteny")
 # blocks <- read.delim("LOC113519197_local_block.tsv")
 blocks <- read.delim("all_species_final_blocks.tsv")
